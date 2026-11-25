@@ -67,7 +67,7 @@ test("updateSourceFeedUrl: github 源返回 null（走内置 app-update.yml 通�
 test("updateSourceFeedUrl: APIX 没有 AtomGit 镜像，任何值都走 GitHub 原生通道", () => {
 	assert.equal(updateSourceFeedUrl("atomgit"), null);
 	assert.equal(updateSourceFeedUrl("github"), null);
-	assert.equal(gitHubLatestDownloadBase(), "https://github.com/m4rr5er/apix/releases/latest/download");
+	assert.equal(gitHubLatestDownloadBase(), "https://github.com/m4rr5er/APIX/releases/latest/download");
 });
 
 test("updateSourceLatestReleaseUrl: APIX 只用 GitHub /releases/latest", () => {
@@ -89,6 +89,6 @@ test("normalizeCustomMirrorHost: trim/去尾斜杠/协议校验", () => {
 });
 
 test("gitHubProxyFeedUrl: 直连失败回退镜像仍指向同一 Release", () => {
-	assert.equal(gitHubProxyFeedUrl(), "https://gh-proxy.com/https://github.com/m4rr5er/apix/releases/latest/download");
-	assert.equal(gitHubProxyFeedUrl("https://mirror.example.com/"), "https://mirror.example.com/https://github.com/m4rr5er/apix/releases/latest/download");
+	assert.equal(gitHubProxyFeedUrl(), "https://gh-proxy.com/https://github.com/m4rr5er/APIX/releases/latest/download");
+	assert.equal(gitHubProxyFeedUrl("https://mirror.example.com/"), "https://mirror.example.com/https://github.com/m4rr5er/APIX/releases/latest/download");
 });

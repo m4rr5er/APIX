@@ -11,7 +11,7 @@
 
 > **最新版本 v1.0.5**（2026-11-04）
 
-下载安装包：[GitHub Releases](https://github.com/m4rr5er/apix/releases)
+下载安装包：[GitHub Releases](https://github.com/m4rr5er/APIX/releases)
 
 ---
 
@@ -52,7 +52,7 @@ APIX 不是另一个 Agent 引擎，也不是浏览器套壳。Agent 行为、�
 
 ### 安装
 
-从 [Releases](https://github.com/m4rr5er/apix/releases) 下载：
+从 [Releases](https://github.com/m4rr5er/APIX/releases) 下载：
 
 - `APIX-1.0.5-setup.exe`：Windows 安装版
 - `APIX-1.0.5-portable.exe`：Windows 便携版
@@ -79,7 +79,7 @@ APIX 不是另一个 Agent 引擎，也不是浏览器套壳。Agent 行为、�
 APIX 的更新源是 **APIX 自己的 GitHub Release**：
 
 ```text
-https://github.com/m4rr5er/apix/releases
+https://github.com/m4rr5er/APIX/releases
 ```
 
 在 `设置 → 开发设置 → 版本与更新` 中可以手动检查。APIX 只检查自己的 Release 更新。

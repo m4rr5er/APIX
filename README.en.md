@@ -11,7 +11,7 @@
 
 > **Latest: v1.0.5** (2026-11-04)
 
-Download: [GitHub Releases](https://github.com/m4rr5er/apix/releases)
+Download: [GitHub Releases](https://github.com/m4rr5er/APIX/releases)
 
 ---
 
@@ -52,7 +52,7 @@ There is still exactly one agent communication channel: **stdio JSON-RPC**. APIX
 
 ### Install
 
-Download from [Releases](https://github.com/m4rr5er/apix/releases):
+Download from [Releases](https://github.com/m4rr5er/APIX/releases):
 
 - `APIX-1.0.5-setup.exe` — Windows installer
 - `APIX-1.0.5-portable.exe` — Windows portable build
@@ -79,7 +79,7 @@ Only enabled and configured providers appear in **Today's usage** at the bottom-
 APIX checks **its own GitHub Releases**:
 
 ```text
-https://github.com/m4rr5er/apix/releases
+https://github.com/m4rr5er/APIX/releases
 ```
 
 You can check manually under **Settings → Development → Version & Updates**. APIX checks only its own release feed.

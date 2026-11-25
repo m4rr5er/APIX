@@ -26,7 +26,7 @@ test("generateFallbackAppUpdateConfigYaml 生成合法的 GitHub provider 配置
 	const yaml = generateFallbackAppUpdateConfigYaml();
 	assert.match(yaml, /provider:\s*github/);
 	assert.match(yaml, /owner:\s*m4rr5er/);
-	assert.match(yaml, /repo:\s*apix/);
+	assert.match(yaml, /repo:\s*APIX/);
 	assert.match(yaml, /updaterCacheDirName:\s*apix-updater/);
 
 	const customYaml = generateFallbackAppUpdateConfigYaml({
@@ -130,7 +130,7 @@ test("GitHub 检查遇到网络 RST 时自动回退到只读镜像 feed", async 
 		assert.equal(checks, 2, "直连失败后应重试一次");
 		assert.equal(setFeedCalls.length, 1);
 		assert.equal(setFeedCalls[0].provider, "generic");
-		assert.equal(setFeedCalls[0].url, "https://gh-proxy.com/https://github.com/m4rr5er/apix/releases/latest/download");
+		assert.equal(setFeedCalls[0].url, "https://gh-proxy.com/https://github.com/m4rr5er/APIX/releases/latest/download");
 	} finally {
 		if (savedFeed === undefined) delete process.env.PIDEK_UPDATE_FEED_URL;
 		else process.env.PIDEK_UPDATE_FEED_URL = savedFeed;

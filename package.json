@@ -18,13 +18,13 @@
       "url": "https://github.com/1900EasonJin"
     }
   ],
-  "homepage": "https://github.com/m4rr5er/apix#readme",
+  "homepage": "https://github.com/m4rr5er/APIX#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/m4rr5er/apix.git"
+    "url": "git+https://github.com/m4rr5er/APIX.git"
   },
   "bugs": {
-    "url": "https://github.com/m4rr5er/apix/issues"
+    "url": "https://github.com/m4rr5er/APIX/issues"
   },
   "keywords": [
     "pi",
@@ -365,7 +365,7 @@
     "publish": {
       "provider": "github",
       "owner": "m4rr5er",
-      "repo": "apix"
+      "repo": "APIX"
     }
   },
   "devDependencies": {

@@ -1,7 +1,7 @@
 import type { UpdateSourceId } from "./types/settings";
 
 export const UPDATE_REPO_OWNER = "m4rr5er";
-export const UPDATE_REPO = "apix";
+export const UPDATE_REPO = "APIX";
 
 export const RELEASES_LATEST_DOWNLOAD_PATH = "/releases/latest/download";
 
